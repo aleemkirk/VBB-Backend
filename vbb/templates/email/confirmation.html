@@ -1,0 +1,21 @@
+{% load i18n %}
+
+{% block subject %}
+{% blocktrans %}Village Book Builders - Your account has been successfully created and activated!{% endblocktrans %}
+{% endblock %}
+
+{% block text_body %}
+{% trans "Your account has been created and is ready for you to finish your registration!" %}
+
+{% trans "Thank you for giving a child hope!" %}
+
+{% blocktrans %}Village Book Builders{% endblocktrans %}
+{% endblock text_body %}
+
+{% block html_body %}
+<p>{% trans "Your account has been created and is ready for you to finish your registration!" %}</p>
+
+<p>{% trans "Thank you for giving a child hope!" %}</p>
+
+<p>{% blocktrans %}Village Book Builders{% endblocktrans %}</p>
+{% endblock html_body %}
