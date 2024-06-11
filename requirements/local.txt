@@ -51,8 +51,8 @@ sphinx==4.5.0  # https://github.com/sphinx-doc/sphinx
 # Documentation
 # ------------------------------------------------------------------------------
 sphinx==4.5.0  # https://github.com/sphinx-doc/sphinx
-sphinx-autobuild==2021.3.14 # https://github.com/GaretJax/sphinx-autobuild
-sphinx-autobuild==2021.3.14 # https://github.com/GaretJax/sphinx-autobuild
+sphinx-autobuild==2024.4.16 # https://github.com/GaretJax/sphinx-autobuild
+sphinx-autobuild==2024.4.16 # https://github.com/GaretJax/sphinx-autobuild
 watchgod==0.8.2  # https://github.com/samuelcolvin/watchgod
 
 Werkzeug[watchdog]==2.1.1 # https://github.com/pallets/werkzeug
